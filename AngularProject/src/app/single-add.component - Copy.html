@@ -1,0 +1,71 @@
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=greek" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://unpkg.com/@angular/material/prebuilt-themes/indigo-pink.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>body { font-family: Roboto, Arial, sans-serif; }</style>
+<div class="modal-backdrop">
+  <!-- Modal -->
+  <div class="modal " id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLabel">Add Partner</h3>
+          <button type="button" class="close closeIcon" data-dismiss="modal">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="" style="text-align: right;color: red;font-size: 11px;margin-right: 35px;">
+              <i class="fa fa-circle" aria-hidden="true" style="font-size: 7px;position: relative;left: -2px;top: -1px;"></i>Mandatory Fields
+        </div>
+        <div class="modal-body">
+              <form class="example-form">
+                <div class="form-group">
+                    <mat-form-field class="example-full-width">
+                        <input matInput placeholder="Partner Type ">
+                    </mat-form-field>
+                </div>
+                <div class="form-group">
+                    <mat-form-field class="example-full-width">
+                        <input matInput placeholder="Name ">
+                    </mat-form-field>
+                </div>
+                 <div class="form-group">
+                    <mat-form-field class="example-full-width">
+                        <input matInput placeholder="Contact Number">
+                    </mat-form-field>
+                </div>
+                <div class="form-group">
+                    <mat-form-field class="example-full-width">
+                        <input matInput placeholder="Email">
+                    </mat-form-field>
+                </div>
+                 <div class="form-group">
+                    <mat-form-field class="example-full-width">
+                        <input matInput placeholder="Pin Code">
+                    </mat-form-field>
+                </div>
+                <div class="form-group">
+                     <mat-form-field class="example-full-width">
+                        <input matInput placeholder="Building, Street">
+                    </mat-form-field>
+                </div>
+                <div class="form-group">
+                     <mat-form-field class="example-full-width">
+                        <input matInput placeholder="Landmark">
+                    </mat-form-field>
+                </div>
+                <div class="form-group-btn">
+                   <button type="submit" class="btn whiteButton" style="margin-top: 10px;">Upload Logo</button>
+                   <p style="font-size: 11px;margin: 0;color:#bdbdbd;margin-left: 11px;">or Drag and Drop</p>
+                </div>
+          </form>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn whiteButton" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn darkButton">Add Partner</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

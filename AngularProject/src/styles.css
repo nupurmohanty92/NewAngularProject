@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+.mat-form-field {
+    width: 100% !important;
+}
+.mat-form-field-wrapper {
+    padding-bottom: 0.5em !important;
+}
+.mat-form-field-infix {
+   /* padding: .4375em 0;*/
+    border-top: .84375em solid transparent;
+    font-size: 13px;
+    padding-top: 0px !important;
+}
+label.mat-input-placeholder.mat-form-field-placeholder:after {
+    width: 5px;
+    height: 5px;
+    background: red;
+    font-size: 12px;
+    content: " ";
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 3px;
+    margin-bottom: 2px;
+}
+
+.mat-form-field-underline {
+    background-color: #d1d1d1!important;
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+   .mat-form-field-infix {
+   /* padding: .4375em 0;*/
+    border-top: .84375em solid transparent;
+    font-size: 14px;
+    padding-top: 0px !important;
+}
+
+}
